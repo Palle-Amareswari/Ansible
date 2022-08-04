@@ -15,7 +15,7 @@
       - name: Downloading tomcat
         get_url:
           url: "https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.75/bin/apache-tomcat-8.5.75.tar.gz"
-          dest: /usr/local/bin
+          dest: /usr/local
       - name: Extracting tomcat
         unarchive:
           src: "/usr/local/apache-tomcat-8.5.75.tar.gz"
